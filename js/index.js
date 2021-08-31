@@ -56,3 +56,15 @@ document.querySelectorAll('header nav')[3].style.color = 'green';
 document.querySelectorAll('header nav')[4].style.color = 'green';
 document.querySelectorAll('header nav')[5].style.color = 'green';
 
+let newNav = document.createElement('a');
+newNav.setAttribute('href', '#');
+newNav.setAttribute('class', 'newNav');
+newNav.innerText = 'Merch';
+newNav.style.color = 'green';
+document.querySelector('nav').appendChild(newNav);
+let nuNav = document.createElement('a');
+nuNav.setAttribute('href', '#');
+nuNav.setAttribute('class', 'newNav');
+nuNav.innerText = 'Find us';
+nuNav.style.color = 'green';
+document.querySelector('nav').appendChild(nuNav);
