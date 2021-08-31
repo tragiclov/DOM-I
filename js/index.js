@@ -73,3 +73,11 @@ let codeImg = document.querySelector('#cta-img');
 codeImg.setAttribute('src', siteContent['cta']['img-src']);
 document.querySelector('.cta-text h1').innerText = siteContent['cta']['h1'];
 document.querySelector('.cta-text button').innerText = siteContent['cta']['button'];
+
+let topCon = document.querySelectorAll('.top-content .text-content');
+topCon[0].querySelector('h4').innerText = siteContent['main-content']['features-h4'];
+topCon[0].querySelector('p').innerText = siteContent['main-content']['features-content'];
+topCon[1].querySelector('h4').innerText = siteContent['main-content']['about-content'];
+topCon[1].querySelector('p').innerText = siteContent['main-content']['middle-img-src'];
+document.querySelector('#middle-img').setAttribute('src', siteContent['main-content']['middle-img-src']);
+
