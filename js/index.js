@@ -68,3 +68,8 @@ nuNav.setAttribute('class', 'newNav');
 nuNav.innerText = 'Find us';
 nuNav.style.color = 'green';
 document.querySelector('nav').appendChild(nuNav);
+
+let codeImg = document.querySelector('#cta-img');
+codeImg.setAttribute('src', siteContent['cta']['img-src']);
+document.querySelector('.cta-text h1').innerText = siteContent['cta']['h1'];
+document.querySelector('.cta-text button').innerText = siteContent['cta']['button'];
