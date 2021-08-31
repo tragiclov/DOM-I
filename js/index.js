@@ -78,3 +78,8 @@ let nav = document.querySelector('nav');
 
 nav.appendChild(newLink);
 nav.prepend(nuLink);
+
+ctah1.textContent = siteContent['cta']['h1'];
+
+let ctaImg = document.querySelector('#cta-img');
+ctaImg.setAttribute('src', siteContent['cta']['img-src']);
