@@ -89,3 +89,10 @@ bottomCon[1].querySelector('p').innerText = siteContent[`main-content`]['product
 bottomCon[2].querySelector('h4').innerText = siteContent[`main-content`]['vision-h4'];
 bottomCon[2].querySelector('p').innerText = siteContent[`main-content`]['vision-content'];
 
+let contactCon = document.querySelector('.contact');
+contactCon.querySelector('h4').innerText = siteContent['contact']['contact-h4'];
+let contactPs = contactCon.querySelectorAll('p');
+contactPs[0].innerText = siteContent['contact']['address'];
+contactPs[1].innerText = siteContent['contact']['phone'];
+contactPs[2].innerText = siteContent['contact']['email'];
+
