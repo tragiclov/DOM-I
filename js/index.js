@@ -68,3 +68,13 @@ footerP.textContent = siteContent['footer']['copyright'];
 const newLink = document.createElement('a');
 newLink.textContent = 'NewLink';
 newLink.href = '#';
+
+let contactH4 = document.querySelector('.contact h4');
+contactH4.textContent = siteContent['contact']['contact-h4'];
+
+const nuLink = newLink.cloneNode(true);
+
+let nav = document.querySelector('nav');
+
+nav.appendChild(newLink);
+nav.prepend(nuLink);
