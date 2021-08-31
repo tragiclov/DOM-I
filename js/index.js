@@ -62,3 +62,9 @@ contactP2.textContent = siteContent['contact']['phone'];
 let contactP3 = contactP2.nextElementSibling;
 contactP3.textContent = siteContent['contact']['email'];
 
+let footerP = document.querySelector('footer p');
+footerP.textContent = siteContent['footer']['copyright'];
+
+const newLink = document.createElement('a');
+newLink.textContent = 'NewLink';
+newLink.href = '#';
