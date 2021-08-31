@@ -41,45 +41,10 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-
-let topTextP = document.querySelector('.top-content .text-content p');
-topTextP.textContent = siteContent['main-content']['features-content'];
-
-let topTexth4 = document.querySelector('.top-content .text-content h4');
-topTexth4.textContent = siteContent['main-content']['features-h4'];
-
-let bottomH4 = document.querySelectorAll('.bottom-content h4');
-bottomH4.item(0).textContent = siteContent['main-content']['services-h4'];
-bottomH4.item(1).textContent = siteContent['main-content']['product-h4'];
-bottomH4.item(2).textContent = siteContent['main-content']['vision-h4'];
-
-let contactP1 = document.querySelector('.contact p');
-contactP1.textContent = siteContent['contact']['address'];
-
-let contactP2 = contactP1.nextElementSibling;
-contactP2.textContent = siteContent['contact']['phone'];
-
-let contactP3 = contactP2.nextElementSibling;
-contactP3.textContent = siteContent['contact']['email'];
-
-let footerP = document.querySelector('footer p');
-footerP.textContent = siteContent['footer']['copyright'];
-
-const newLink = document.createElement('a');
-newLink.textContent = 'NewLink';
-newLink.href = '#';
-
-let contactH4 = document.querySelector('.contact h4');
-contactH4.textContent = siteContent['contact']['contact-h4'];
-
-const nuLink = newLink.cloneNode(true);
-
-let nav = document.querySelector('nav');
-
-nav.appendChild(newLink);
-nav.prepend(nuLink);
-
-ctah1.textContent = siteContent['cta']['h1'];
-
-let ctaImg = document.querySelector('#cta-img');
-ctaImg.setAttribute('src', siteContent['cta']['img-src']);
+logo.setAttribute('src', siteContent["nav"]["img-src"]);
+document.querySelectorAll('nav a')[0].setAttribute('href', siteContent['nav']['nav-item-1']);
+document.querySelectorAll('nav a')[1].setAttribute('href', siteContent['nav']['nav-item-2']);
+document.querySelectorAll('nav a')[2].setAttribute('href', siteContent['nav']['nav-item-3']);
+document.querySelectorAll('nav a')[3].setAttribute('href', siteContent['nav']['nav-item-4']);
+document.querySelectorAll('nav a')[4].setAttribute('href', siteContent['nav']['nav-item-5']);
+document.querySelectorAll('nav a')[5].setAttribute('href', siteContent['nav']['nav-item-6']);
