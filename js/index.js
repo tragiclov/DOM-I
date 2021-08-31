@@ -81,3 +81,11 @@ topCon[1].querySelector('h4').innerText = siteContent['main-content']['about-con
 topCon[1].querySelector('p').innerText = siteContent['main-content']['middle-img-src'];
 document.querySelector('#middle-img').setAttribute('src', siteContent['main-content']['middle-img-src']);
 
+let bottomCon = document.querySelectorAll('.bottom-content .text-content');
+bottomCon[0].querySelector('h4').innerText = siteContent[`main-content`]['services-h4'];
+bottomCon[0].querySelector('p').innerText = siteContent[`main-content`]['services-content'];
+bottomCon[1].querySelector('h4').innerText = siteContent[`main-content`]['product-h4'];
+bottomCon[1].querySelector('p').innerText = siteContent[`main-content`]['product-content'];
+bottomCon[2].querySelector('h4').innerText = siteContent[`main-content`]['vision-h4'];
+bottomCon[2].querySelector('p').innerText = siteContent[`main-content`]['vision-content'];
+
