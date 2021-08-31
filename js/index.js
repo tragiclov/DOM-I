@@ -96,3 +96,4 @@ contactPs[0].innerText = siteContent['contact']['address'];
 contactPs[1].innerText = siteContent['contact']['phone'];
 contactPs[2].innerText = siteContent['contact']['email'];
 
+document.querySelector('footer p').innerText = siteContent['footer']['copyright'];
