@@ -53,3 +53,12 @@ bottomH4.item(0).textContent = siteContent['main-content']['services-h4'];
 bottomH4.item(1).textContent = siteContent['main-content']['product-h4'];
 bottomH4.item(2).textContent = siteContent['main-content']['vision-h4'];
 
+let contactP1 = document.querySelector('.contact p');
+contactP1.textContent = siteContent['contact']['address'];
+
+let contactP2 = contactP1.nextElementSibling;
+contactP2.textContent = siteContent['contact']['phone'];
+
+let contactP3 = contactP2.nextElementSibling;
+contactP3.textContent = siteContent['contact']['email'];
+
