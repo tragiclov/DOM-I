@@ -48,3 +48,11 @@ document.querySelectorAll('nav a')[2].setAttribute('href', siteContent['nav']['n
 document.querySelectorAll('nav a')[3].setAttribute('href', siteContent['nav']['nav-item-4']);
 document.querySelectorAll('nav a')[4].setAttribute('href', siteContent['nav']['nav-item-5']);
 document.querySelectorAll('nav a')[5].setAttribute('href', siteContent['nav']['nav-item-6']);
+
+document.querySelectorAll('header nav')[0].style.color = 'green';
+document.querySelectorAll('header nav')[1].style.color = 'green';
+document.querySelectorAll('header nav')[2].style.color = 'green';
+document.querySelectorAll('header nav')[3].style.color = 'green';
+document.querySelectorAll('header nav')[4].style.color = 'green';
+document.querySelectorAll('header nav')[5].style.color = 'green';
+
